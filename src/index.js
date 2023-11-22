@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client';
 import App from './components/App/App';
 
 /** TODO: import REDUX **/
+import { Provider } from 'react-redux';
+import { applyMiddleware, combineReducers, createStore } from 'redux';
+import logger from 'redux-logger';
 
 
 /** TODO: Add REDUCERS */
